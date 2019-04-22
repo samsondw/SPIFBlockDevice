@@ -186,6 +186,12 @@ public:
      */
     virtual bd_size_t size() const;
 
+    /** Get the BlockDevice class type.
+     *
+     *  @return         A string representation of the BlockDevice class type.
+     */
+    virtual const char *get_type() const;
+    
 private:
 
     // Internal functions
